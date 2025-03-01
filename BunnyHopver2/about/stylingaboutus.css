@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai+Looped:wght@100;200;300;400;500;600;700;800;900&family=Paytone+One&display=swap');
+
+body {
+    background-color: #FFF7F5;
+
+}
+.text1 {
+    font-family: "Paytone One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 36px; /* ปรับขนาดตามที่ต้องการ */
+    color: #000; /* เปลี่ยนสีตามต้องการ */
+}
+.text2 {
+    font-family: "Paytone One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px; /* ปรับขนาดตามที่ต้องการ */
+    color: #000; /* เปลี่ยนสีตามต้องการ */
+}
+/* 1เปลี่ยนตรงนี้ไป */
+.text3, .row, footer {
+    font-family: "Noto Sans Thai", sans-serif;
+    font-optical-sizing: auto;
+/* 2แก้ไขค่า font-weight */
+    font-weight: 400; 
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+
+/* Centered team member image */
+/* 3ใช้ flexbox กับ div แทน img */
+.team-member-center {
+    display: block; /* แก้ไขจาก flex เป็น block */
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+  
+}
+
+.team-member-center img {
+    width: 15rem;
+    height: 150px;
+}
+
+/* Display numbers and names in two columns */
+
+.row p {
+    font-family: "Noto Sans Thai Looped", sans-serif;
+    text-align: left;
+    font-size: 12px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,30 @@
+/* ตั้งค่าพื้นหลังให้เต็มจอ */
+body {
+    background-color: #FFF7F5;
+
+}
+.pic1 img {
+    text-align: left;
+
+    max-width: 100%;
+    height: auto;
+}
+/* ตั้งค่า container ของรูป 
+.pic1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden; 
+}
+
+
+.pic1 img {
+    width: 100vw;  
+    height: auto;  
+    max-height: 100vh; 
+    object-fit: contain;
+}
+
+*/
